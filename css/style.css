@@ -117,6 +117,8 @@ body::-webkit-scrollbar-thumb {
   padding: 30px;
   border-radius: 10px;
   display: none;
+  max-width: 470px;
+  width: 100%;
 }
 /* Welcome end */
 
@@ -290,6 +292,41 @@ body::-webkit-scrollbar-thumb {
 }
 /* Footer end */
 
+/* Problem  */
+.problem {
+  margin-top: 50px;
+}
+.problem__container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+.problem__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.problem__item {
+  margin-bottom: 50px;
+}
+.problem__item p {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.problem__img {
+  margin-bottom: 15px;
+}
+.problem__img img {
+  max-width: 400px;
+  width: 100%;
+}
+.problem__answer {
+  font-size: 20px;
+  color: #1d706d;
+}
+/* Problem end */
+
 /* Адаптив */
 
 /* Header burger */
@@ -373,5 +410,12 @@ body::-webkit-scrollbar-thumb {
   }
   .basic__images {
     display: block;
+  }
+  .problem__container {
+    padding: 15px;
+  }
+  .welcome {
+    width: 80vw;
+    font-size: 14px;
   }
 }
