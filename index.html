@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/welcome.js"></script>
+    <script defer src="js/timer.js"></script>
+    <script defer src="js/burder.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="header__container">
+          <a href="index.html" class="header__logo">Student.dev</a>
+          <menu class="header__menu menu">
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#basic" class="menu__link">Основная Информация</a>
+                </li>
+                <li class="menu__item"><a href="#scale" class="menu__link">Шкала</a></li>
+                <li class="menu__item">
+                  <a href="#specifications" class="menu__link">Cпецификации</a>
+                </li>
+                <li class="menu__item"><a href="#tasks" class="menu__link">Задачи</a></li>
+              </ul>
+            </div>
+          </menu>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- main -->
+      <main class="main">
+        <section class="timer">
+          <div class="timer__container">
+            <h1 class="timer__title">
+              Здравствуйте! До Основного Государственного экзамена осталось:
+            </h1>
+            <div class="timer__count">
+              <div class="timer__item">
+                <div class="timer__value day">00</div>
+                <div class="timer__name timer__name_day">Дней</div>
+              </div>
+              <div class="timer__item">
+                <div class="timer__value hour">00</div>
+                <div class="timer__name timer__name_hour">Часов</div>
+              </div>
+              <div class="timer__item">
+                <div class="timer__value minute">00</div>
+                <div class="timer__name timer__name_minute">Минут</div>
+              </div>
+              <div class="timer__item">
+                <div class="timer__value second">00</div>
+                <div class="timer__name timer__name_second">Секунд</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="basic" class="basic">
+          <div class="basic__container">
+            <h2 class="basic__title">Основная Информация</h2>
+            <div class="basic__body">
+              <p class="basic__paragraph">
+                ОГЭ – это форма государственной итоговой аттестации по образовательным программам
+                основного общего образования. При проведении ОГЭ используются контрольные
+                измерительные материалы стандартизированной формы.
+              </p>
+              <p class="basic__paragraph">
+                Согласно приказу Министерства просвещения Российской Федерации, Федеральной службы
+                по надзору в сфере образования и науки от 16.11.2022 № 990/1144 "Об утверждении
+                единого расписания и продолжительности проведения основного государственного
+                экзамена по каждому учебному предмету, требований к использованию средств обучения и
+                воспитания при его проведении в 2023 году", экзамен по математике пройдет 9 июня
+                (пятница).
+              </p>
+              <p class="basic__paragraph">
+                Продолжительность ОГЭ по математике составляет 3 часа 55 минут (235 минут).
+              </p>
+              <p class="basic__paragraph">
+                Допускается использование участниками экзаменов следующих средств: по математике —
+                линейка, не содержащая справочной информации (далее — линейка), для построения
+                чертежей и рисунков; справочные материалы, содержащие основные формулы курса
+                математики образовательной программы основного общего образования;
+              </p>
+            </div>
+            <div class="basic__slip">
+              <h3>Бланк ответов:</h3>
+              <div class="basic__images">
+                <div class="basic__image">
+                  <img src="img/slip/image1.jpg" alt="slip" />
+                </div>
+                <div class="basic__image">
+                  <img src="img/slip/image2.jpg" alt="slip" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="scale" class="scale">
+          <div class="scale__container">
+            <h2 class="scale__title">Шкала перевода баллов ОГЭ</h2>
+            <div class="scale__body">
+              <article class="scale__item"><b>Оценка «2»:</b> 0-7</article>
+              <article class="scale__item">
+                <b>Оценка «3»:</b> 8-14, не менее 2 баллов получено за выполнение заданий по
+                геометрии
+              </article>
+              <article class="scale__item">
+                <b>Оценка «4»:</b> 15-21, не менее 2 баллов получено за выполнение заданий по
+                геометрии
+              </article>
+              <article class="scale__item">
+                <b>Оценка «5»:</b> 22-31, не менее 2 баллов получено за выполнение заданий по
+                геометрии
+              </article>
+              <article class="scale__item">Задания по геометрии: 15-19, 23-25.</article>
+              <article class="scale__item">
+                Рекомендуемый минимальный первичный балл для отбора обучающихся в профильные классы
+                для обучения по образовательным программам среднего общего образования:
+              </article>
+              <article class="scale__item">
+                → для естественнонаучного профиля: 18 баллов, из них не менее 6 по геометрии; <br />
+                → для экономического профиля: 18 баллов, из них не менее 5 по геометрии; <br />
+                → для физико-математического профиля: 19 баллов, из них не менее 7 по геометрии.
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="specifications" class="specifications">
+          <div class="specifications__container">
+            <h2 class="specifications__title">Демоверсии, спецификации, кодификаторы.</h2>
+            <h4 class="specifications__subtitle">
+              В данном разделе представлены документы, определяющие структуру и содержание
+              контрольных измерительных материалов основного государственного экзамена 2023 года:
+            </h4>
+            <div class="specifications__body">
+              <p class="specifications__item">
+                — кодификаторы проверяемых требований к результатам освоения основной
+                образовательной программы основного общего образования и элементов содержания для
+                проведения основного государственного экзамена;
+              </p>
+              <p class="specifications__item">
+                — спецификации контрольных измерительных материалов для проведения основного
+                государственного экзамена по общеобразовательным предметам обучающихся, освоивших
+                основные общеобразовательные программы основного общего образования;
+              </p>
+              <p class="specifications__item">
+                — демонстрационные варианты контрольных измерительных материалов для проведения
+                основного государственного экзамена по общеобразовательным предметам обучающихся,
+                освоивших основные общеобразовательные программы основного общего образования.
+              </p>
+            </div>
+            <div class="specifications__links">
+              <p class="specifications__name">Ссылки на документы:</p>
+              <div class="specifications__link">
+                <p>Спецификатор –</p>
+                <a href="">СКАЧАТЬ</a>
+              </div>
+              <div class="specifications__link">
+                <p>Кодификатор –</p>
+                <a href="">СКАЧАТЬ</a>
+              </div>
+              <div class="specifications__link">
+                <p>Демоверсия варианта и справочные материалы –</p>
+                <a href="">СКАЧАТЬ</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tasks" class="tasks">
+          <div class="tasks__container">
+            <h2 class="tasks__title">Типовые задачи</h2>
+            <h4 class="tasks__subtitle">
+              Экзаменационная работа состоит из двух частей, включающих в себя 25 заданий. Часть 1
+              содержит 19 заданий, часть 2 содержит 6 заданий с развёрнутым ответом.
+            </h4>
+            <div class="tasks__body">
+              <a href="" class="tasks__link">Реальная математика (1-5 задания) </a>
+              <a href="" class="tasks__link">Действия с обыкновенными и десятичными дробями.</a>
+              <a href="" class="tasks__link">Неравенства. Сравнение чисел.</a>
+              <a href="" class="tasks__link">Вычисления. Рациональные выражения</a>
+              <a href="" class="tasks__link"
+                >Линейные, квадратные и рациональные уравнения. Системы уравнений</a
+              >
+              <a href="" class="tasks__link">Статистика, вероятности</a>
+              <a href="" class="tasks__link">Графики функций</a>
+              <a href="" class="tasks__link">Расчёты по формулам</a>
+              <a href="" class="tasks__link">Неравенства</a>
+              <a href="" class="tasks__link">Задачи на прогрессии</a>
+              <a href="" class="tasks__link"
+                >Треугольники, четырёхугольники, многоугольники и их элементы</a
+              >
+              <a href="" class="tasks__link">Задачи с окружностями</a>
+              <a href="" class="tasks__link">Площади фигур</a>
+              <a href="" class="tasks__link">Углы. Расстояние. Площадь. Длина</a>
+              <a href="" class="tasks__link">Анализ геометрических высказываний</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- main end -->
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__copy">©2023 Student.dev</div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+    <!-- welcome -->
+    <div class="welcome">
+      Добро пожаловать! Здесь вы сможете ознакомиться <br />
+      с полезными материалами для успешной сдачи ОГЭ!»
+    </div>
+    <!-- welcome end -->
+  </body>
+</html>
